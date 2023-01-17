@@ -1,0 +1,47 @@
+{
+  //   "plugins": [
+  //     ["@babel/plugin-transform-arrow-functions", { "spec": true }],
+  //     "@babel/plugin-transform-classes",
+  //     "@babel/plugin-transform-for-of",
+  //     "@babel/plugin-transform-template-literals"
+  //   ]
+  //   "presets": [
+  //     [
+  //       "@babel/env",
+  //       {
+  //         "targets": {
+  //           "chrome": "74"
+  //         }
+  //       }
+  //     ]
+  //   ]
+  //   "presets": [
+  //     [
+  //       "@babel/env",
+  //       {
+  //         "debug": true,
+  //         "targets": [
+  //           "last 2 chrome versions",
+  //           "last 2 ios versions"
+  //           //   "last 2 ie versions"
+  //         ]
+  //       }
+  //     ]
+  //   ]
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "debug": true,
+        "corejs": 3,
+        "useBuiltIns": "usage"
+        // "targets": [
+        //"> 0.10%", // 0.10% мирового рейтинга
+        //"not ie >" // не будем пожжерживать
+        //"chrome > 60" // больше 60 той версии
+        // ]
+      }
+    ],
+    "@babel/react"
+  ]
+}

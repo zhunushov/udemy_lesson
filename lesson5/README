@@ -1,0 +1,7 @@
+npx babel src --out-dir build --plugins // можно через запитую запустить не сколько плагинов > @babel/plugin-transform-arrow-functions,@babel/plugin-transform-classes
+
+
+
+как устонавить!  npm install --save-dev @babel/plugin-transform-for-of
+
+npx что запустить babel, откуда брать src, куда куда положить --out-dir build, --plugins и плагины
